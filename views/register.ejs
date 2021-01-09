@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.css" rel="stylesheet" />
+    <link href="https://cdn.bootcss.com/animate.css/3.7.2/animate.css" rel="stylesheet" />
+    <style type="text/css">
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        body {
+            /* background: url("../img/xhc1.jpg") no-repeat; */
+            background-color: skyblue;
+            background-size: cover;
+        }
+        
+        .login {
+            display: block;
+            font-size: 35px;
+            color: #ffffff;
+            text-align: center;
+            font-family: Constantia;
+            font-weight: bold;
+            padding-top: 30px;
+            padding-bottom: 20px;
+        }
+        
+        body {
+            background: url("/images/img/bg.png");
+        }
+        
+        article {
+            width: 1200px;
+            margin: 0 auto;
+        }
+        
+        article {
+            width: 400px;
+            margin: 100px auto 0px auto;
+        }
+        
+        article h1 {
+            width: 400px;
+            color: #5593ce;
+            text-align: center;
+            margin-bottom: 15px;
+            font-weight: normal;
+        }
+        
+        article h1 em {
+            display: inline-block;
+            color: #5593ce;
+            font-size: 25px;
+        }
+        
+        .main {
+            padding: 40px 0px;
+            width: 400px;
+            height: 300px;
+            position: absolute;
+            top: 70px;
+            right: 100px;
+            background-color: #fff9;
+            border-radius: 15px
+        }
+        
+        form {
+            width: 297px;
+            margin: 0 auto;
+        }
+        
+        form button {
+            width: 290px;
+            height: 35px;
+            background-color: red;
+            color: #fff;
+            border: none;
+            margin-top: 15px;
+            letter-spacing: 10px;
+            font-size: 16px;
+            text-align: center;
+        }
+        
+        .main form input {
+            margin: 10px 0;
+            width: 280px;
+            height: 35px;
+            border-radius: 3px;
+            display: inline-block;
+            border: 1px solid rgb(165, 161, 161);
+            padding-left: 10px;
+            margin-bottom: 70px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container" class="animated bounceInLeft">
+        <span class="login">注册</span>
+
+
+
+
+
+        <article>
+
+            <div class="main">
+                <form action="/register/in" method="post">
+
+                    <div class="userName">
+                        <input type="text" id="username" name="username" placeholder="用户名">
+                    </div>
+                    <div class="password">
+                        <input type="password" id="pass" name="pass" placeholder="密码">
+                    </div>
+
+                    <button type="submit">注册</button>
+                </form>
+            </div>
+        </article>
+
+
+
+
+
+
+        <!-- <form action="/register/in" method="post">
+            用户名
+            <input type="text" placeholder="请输入你的管理员账号" id="username" name="username" /> 密码
+            <input type="password" placeholder="请输入你的管理员密码" id="pass" name="pass" />
+
+            <button type="submit">注册</button>
+        </form> -->
+    </div>
+</body>
+
+</html>
